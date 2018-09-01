@@ -15,7 +15,7 @@ public class Functions
 	public static double rightSide2Cube(double time, boolean right)
 	{
 		double straightTime = 2.17;
-		double turnTime = 1.7;
+		double turnTime = 1.64;
 		double shootTime = .7;
 		double secondCubeSecured = straightTime + turnTime + shootTime + 2;
 		double backUp = .5;
@@ -139,7 +139,7 @@ public class Functions
 			}
 			else if(time < straightTime + turnTime + shootTime + .8)
 			{
-				return .1;
+				return 0;
 			}
 			else if(time < straightTime + turnTime + shootTime + 1.4)
 			{

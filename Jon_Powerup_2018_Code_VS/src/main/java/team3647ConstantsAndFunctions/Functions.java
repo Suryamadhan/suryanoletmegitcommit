@@ -15,7 +15,7 @@ public class Functions
 	public static double rightSide2Cube(double time, boolean right)
 	{
 		double straightTime = 2.17;
-		double turnTime = 1.64;
+		double turnTime = 1.72;
 		double shootTime = .7;
 		double secondCubeSecured = straightTime + turnTime + shootTime + 2;
 		double backUp = .5;

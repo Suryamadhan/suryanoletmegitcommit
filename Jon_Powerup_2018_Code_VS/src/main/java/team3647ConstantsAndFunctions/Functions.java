@@ -15,7 +15,7 @@ public class Functions
 	public static double rightSide2Cube(double time, boolean right)
 	{
 		double straightTime = 2.17;
-		double turnTime = 1.17;
+		double turnTime = 1.7;
 		double shootTime = .7;
 		double secondCubeSecured = straightTime + turnTime + shootTime + 2;
 		double backUp = .5;
@@ -39,7 +39,7 @@ public class Functions
 			else if(time < straightTime + turnTime - .15)
 			{
 				Elevator.moveElevatorPosition(Constants.sWitch);
-				return .8;
+				return .9;
 			}
 			else if(time < straightTime + turnTime)
 			{
@@ -135,11 +135,11 @@ public class Functions
 			}
 			else if(time < straightTime + turnTime)
 			{
-				return .07;
+				return .2;
 			}
 			else if(time < straightTime + turnTime + shootTime + .8)
 			{
-				return 0;
+				return .1;
 			}
 			else if(time < straightTime + turnTime + shootTime + 1.4)
 			{
